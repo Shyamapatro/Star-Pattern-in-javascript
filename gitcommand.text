@@ -1,7 +1,12 @@
+// Git Basic commands
+git init
+  - Initializes the current folder as a git repository 
+
+
+
 …or create a new repository on the command line
 
 echo "# Star-Pattern-in-javascript" >> README.md
-git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
@@ -31,4 +36,20 @@ git remote set-url origin                         ---- for set origin
 
 
 
-git pull origin master --allow-unrelated-histories    --- for allowing
+git pull origin master --allow-unrelated-histories      --- for allowing
+
+
+git add path/to/file                         --- To add a particular file
+
+
+git log --oneline                          -- see a brief log of commits in line by line
+
+git log                                    --- see a brief log of commits with author and date
+ 
+git clone <repository URL>                  --clone repository 
+
+git clone <repository URL> "new folder(2)"  -- clone specific folder
+
+git clone -b <Branch name><Repository URL>   --clone specific branch 
+
+ git clone -b <Branch name><Repository URL> "new folder(2)"   ---clone specific branch with specific folder
