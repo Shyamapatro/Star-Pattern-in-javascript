@@ -35,6 +35,16 @@ git remote remove origin                          --- for remove origin
 git remote set-url origin                         ---- for set origin
 
 
+// delete branch locally
+git branch -d localBranchName
+
+//delete local branch that is unmerged
+git branch -D localBranchName
+
+// delete branch remotely
+git push origin --delete remoteBranchName
+
+
 
 git pull origin master --allow-unrelated-histories      --- for allowing
 
